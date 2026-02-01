@@ -1,11 +1,5 @@
-import React from 'react';
+import {createBrowserrouter} from "react-router"
 
-const routes = () => {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+export const router = createBrowserrouter([
 
-export default routes;
+]);
